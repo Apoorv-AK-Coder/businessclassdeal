@@ -450,7 +450,8 @@ form {
     }
 }
 
-footer {
+.newfooter {
+    background-color: #162849;
     .foot {
         width: 90% !important;
         padding: 20px !important;
