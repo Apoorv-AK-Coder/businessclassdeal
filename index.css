@@ -160,6 +160,7 @@ button {
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+    position: relative;
 
     p {
         color: var(--fourth-color) !important;
@@ -538,6 +539,9 @@ ul#ui-id-1 {
     }
 }
 
+.datepicker-custom {
+    display: none;
+}
 
 @media only screen and (max-width: 1024px) {
     .row {
@@ -634,7 +638,15 @@ ul#ui-id-1 {
         }
     }
 
-    footer {
+    .usp .grid {
+        gap: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .newfooter {
+        .grid {
+            grid-template-columns: repeat(1, 1fr);
+        }
         .foot {
             width: 100% !important;
 
@@ -698,10 +710,6 @@ ul#ui-id-1 {
     }
 
     .uspsections .sections {
-        margin-top: 10px !important;
-    }
-
-    .usp .sections {
         margin-top: 10px !important;
     }
 }

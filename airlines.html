@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://businessclassdeal.com/images/favicon.png">
+    <title>Business Class Deal</title>
+    <link href="./index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/513bc71f1a.js" crossorigin="anonymous"></script>
+    <link href="/Content/css/main.css" rel="stylesheet" />
+    <script src="https://businessclassdeal.com/bundles/jquery?v=e3lZ6Nx_NCF8op-bp_XeBGE5z2JTFQ4cMVZrgQmJ0as1"></script>
+
+    <script
+        src="https://businessclassdeal.com/bundles/bootstrap?v=pDafH-ME540y7rLU--Yik3BBpOHa3_J0LA3Z27qrQQc1"></script>
+
+
+</head>
+
+<body>
+    <div class="container newhead">
+        <div class="head">
+            <div class="main flex">
+                <div class="column left">
+                    <a href="https://businessclassdeal.com/"><img
+                            src="https://businessclassdeal.com/images/logo.png"></a>
+                </div>
+                <div class="column nav" id="view">
+                    <i class="fa-solid fa-xmark" id="off" style="font-size: 25px;"></i>
+                    <ul>
+                        <li><a href="https://businessclassdeal.com/flights">Flights</a></li>
+                        <li><a href="https://businessclassdeal.com/airlines">Airlines</a></li>
+                        <li><a href="https://businessclassdeal.com/deals">Deals</a></li>
+                    </ul>
+                </div>
+                <div class="column right">
+                    <a href="tel:+18009183039"><button><i class="fa-solid fa-phone-volume"></i> Call Us
+                            Now!</button></a>
+                </div>
+                <div class="column" id="on">
+                    <i class="fa-solid fa-bars" style="font-size: 25px;"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        button {
+            font-family: var(--secondary-font);
+            line-height: 2;
+            font-size: 13px !important;
+            font-weight: 700;
+            margin: 10px 0;
+            padding: 0;
+            padding: 5px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            color: var(--fourth-color);
+            background-color: var(--primary-color);
+            border: none;
+        }
+
+
+
+        @media only screen and (max-width: 1024px) {
+            header {
+                & .head {
+                    button {
+                        margin: 0 !important;
+                    }
+                }
+            }
+        }
+    </style>
+
+    <div class="container bg1">
+        <div class="row">
+            <div class="column">
+                <h1>Airlines</h1>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .airlinessec {
+            .column {
+                padding: 15px !important;
+                box-shadow: 0 0 2px 2px rgba(20, 20, 20, 0.1);
+                border-radius: 10px;
+                text-align: center;
+            }
+
+            a, p {
+                line-height: 1.5 !important;
+                color: #FF8A00 !important;
+            }
+
+            img {
+                width: 20px;
+            }
+
+            .grid {
+                grid-template-columns: repeat(5, 1fr);
+            }
+
+            .column:hover {
+                background-color: #FF8A00;
+                cursor: pointer;
+
+                p, a {
+                    color: #fff !important;
+                }
+            }
+        }
+        @media only screen and (max-width: 1024px) {
+            .airlinessec {
+                .grid {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+        }
+    </style>
+
+    <div class="container airlinessec">
+        <div class="row grid">
+            <div class="column"><img src="./images/nk.png" alt=""> <span>NK</span><p><a href="https://www.businessclassdeal.com/spirit-airlines-business-class">Spirit Airlines</a></p></div>
+            <div class="column"><img src="./images/UA.png" alt=""> <span>UA</span><p><a href="https://www.businessclassdeal.com/united-airlines-business-class">United Airlines</a></p></div>
+            <div class="column"><img src="./images/BA.png" alt=""> <span>BA</span><p><a href="https://www.businessclassdeal.com/british-airways-business-class">British Airways</a></p></div>
+            <div class="column"><img src="./images/EK.png" alt=""> <span>EK</span><p><a href="https://www.businessclassdeal.com/emirates-business-class">Emirates</a></p></div>
+            <div class="column"><img src="./images/AF.png" alt=""> <span>AF</span><p><a href="https://www.businessclassdeal.com/air-france-business-class">Air France</a></p></div>
+            <div class="column"><img src="./images/LH.png" alt=""> <span>LH</span><p><a href="https://www.businessclassdeal.com/lufthansa-business-class">Lufthansa</a></p></div>
+            <div class="column"><img src="./images/SQ.png" alt=""> <span>EQ</span><p><a href="https://www.businessclassdeal.com/singapore-airlines-business-class">Singapore Airlines</a></p></div>
+            <div class="column"><img src="./images/DL.png" alt=""> <span>DL</span><p><a href="https://www.businessclassdeal.com/delta-business-class">Delta</a></p></div>
+            <div class="column"><img src="./images/CX.png" alt=""> <span>CX</span><p><a href="https://www.businessclassdeal.com/cathay-pacific-business-class">Cathay Pacific</a></p></div>
+            <div class="column"><img src="./images/AL.png" alt=""> <span>AL</span><p><a href="https://www.businessclassdeal.com/aer-lingus-business-class">Aer Lingus</a></p></div>
+        </div>
+    </div>
+
+    <div class="newfooter">
+        <div class="newfoot">
+            <div class="row grid">
+                <div class="column">
+                    <a href="/"><img src="https://businessclassdeal.com/images/logo.png" alt=""></a>
+                </div>
+                <div class="column">
+                    <h4>Quick Links</h4>
+                    <p><a href="/">Home</a></p>
+                    <p><a href="/about">About Us</a></p>
+                    <p><a href="/contact">Contact Us</a></p>
+                </div>
+                <div class="column">
+                    <h4>Destinations</h4>
+                    <p><a href="#">Los Angeles</a></p>
+                    <p><a href="#">Paris</a></p>
+                    <p><a href="#">Rome</a></p>
+                    <p><a href="#">Tokyo</a></p>
+                </div>
+                <div class="column">
+                    <h4>Top Routes</h4>
+                    <p><a href="#">Chicago to London</a></p>
+                    <p><a href="#">Boston to London</a></p>
+                    <p><a href="#">New York to Los Angeles</a></p>
+                    <p><a href="#">Miami to Europe</a></p>
+                </div>
+                <div class="column">
+                    <h4>More Links</h4>
+                    <p><a href="/term-conditions">Terms & Conditions</a></p>
+                    <p><a href="/privacy-policy">Privacy Policy</a></p>
+                </div>
+            </div>
+            <hr>
+            <div class="foot">
+                <div class="column">
+                    <p>©2025 Business Class Deal All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="/file.js"></script>
+</html>
